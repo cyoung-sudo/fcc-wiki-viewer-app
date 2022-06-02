@@ -29,9 +29,6 @@
 }
 
 #search-submit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 2em;
   width: 2em;
   font-size: 1.2em;
