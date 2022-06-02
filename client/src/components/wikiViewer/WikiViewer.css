@@ -1,0 +1,35 @@
+#wikiViewer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 80%;
+  padding: 4em 0;
+  text-align: center;
+}
+
+#title {
+  margin: 0;
+}
+
+#title span {
+  position: relative;
+  top: 0.2em;
+  left: 0.1em;
+  font-size: 1.3em;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #wikiViewer {
+    width: 70%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #wikiViewer {
+    width: 60%;
+  }
+}

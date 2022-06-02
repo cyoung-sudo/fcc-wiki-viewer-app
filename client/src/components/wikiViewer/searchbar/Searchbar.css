@@ -1,0 +1,39 @@
+#searchbar {
+  margin: 1em auto 1em auto;
+  width: 80%;
+}
+
+#search-random {
+  font-style: italic;
+  text-decoration: none;
+}
+
+#search-random:hover {
+  text-decoration: underline;
+}
+
+#search-form {
+  display: flex;
+  margin-top: 0.3em;
+}
+
+#search-input {
+  padding: 0.2em 0 0.2em 0.5em;
+  width: 100%;
+  font-size: 1.2em;
+  border: 0.1em solid gray;
+  border-right: none;
+  border-radius: 0.2em 0 0 0.2em;
+  outline: none;
+}
+
+#search-submit {
+  height: 2.5em;
+  width: 3em;
+  font-size: 1.1rem;
+  background-color: white;
+  border: 0.1em solid gray;
+  border-radius: 0 0.2em 0.2em 0;
+  border-left: none;
+  cursor: pointer;
+}
