@@ -29,11 +29,9 @@
 }
 
 #search-submit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 2em;
   width: 2em;
+  padding: 0;
   font-size: 1.2em;
   border: 0.1em solid gray;
   border-radius: 0 0.2em 0.2em 0;
@@ -44,4 +42,9 @@
 
 #search-submit:hover {
   cursor: pointer;
+}
+
+#search-submit span { 
+  display: inline-block;
+  margin: auto;
 }

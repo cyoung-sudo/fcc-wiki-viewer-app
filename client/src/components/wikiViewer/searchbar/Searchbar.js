@@ -10,7 +10,7 @@ export default function Searchbar(props) {
       <div>
         <form id="search-form" onSubmit={props.searchHandler}>
           <input id="search-input" type="text" placeholder="Search Wikipedia" autoComplete="off"/>
-          <button id="search-submit" type="submit"><BsSearch/></button>
+          <button id="search-submit" type="submit"><span><BsSearch/></span></button>
         </form>
       </div>
     </div>
