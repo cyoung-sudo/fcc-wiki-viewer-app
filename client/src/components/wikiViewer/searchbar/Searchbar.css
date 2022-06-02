@@ -40,6 +40,7 @@
   border-left: none;
   background-color: black;
   color: white;
+  box-sizing: content-box;
 }
 
 #search-submit:hover {
