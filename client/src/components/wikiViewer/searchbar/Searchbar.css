@@ -29,9 +29,11 @@
 }
 
 #search-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 2.5em;
   width: 2.5em;
-  padding: auto;
   font-size: 1.2em;
   border: 0.1em solid gray;
   border-radius: 0 0.2em 0.2em 0;
