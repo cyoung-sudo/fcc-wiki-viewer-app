@@ -25,7 +25,7 @@ export default class WikiViewerContainer extends React.Component {
     console.log(`Searching articles for "${searchInput}"`);
 
     // Request for articles from server
-    axios.get("http://localhost:5000/wikiApi", { params: {searchInput} })
+    axios.get("/wikiApi", { params: {searchInput} })
       .then(res => {
         let searchResults = res.data.query.search;
 
