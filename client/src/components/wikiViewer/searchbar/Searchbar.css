@@ -40,7 +40,8 @@
   border-radius: 0 0.2em 0.2em 0;
   border-left: none;
   box-sizing: content-box;
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 
 #search-submit:hover {
