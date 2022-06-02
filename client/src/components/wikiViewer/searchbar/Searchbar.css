@@ -37,6 +37,7 @@
   border-radius: 0 0.2em 0.2em 0;
   border-left: none;
   background-color: white;
+  color: black;
 }
 
 #search-submit:hover {
